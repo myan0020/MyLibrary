@@ -7,6 +7,7 @@
 //
 
 #import "FDViewController.h"
+#import "DemoView.h"
 
 @interface FDViewController ()
 
@@ -18,13 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor orangeColor];
-    UILabel *demoTitle = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2 - 100.0, 300, 200, 50)];
-    [demoTitle setText:@"Demo"];
-    [demoTitle setTextColor:[UIColor blackColor]];
-    [demoTitle setFont:[UIFont systemFontOfSize:50]];
-    demoTitle.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:demoTitle];
+    self.view.backgroundColor = [UIColor whiteColor];
+    DemoView *demoView = [[DemoView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:demoView];
 }
 
 - (void)didReceiveMemoryWarning

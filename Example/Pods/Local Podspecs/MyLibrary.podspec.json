@@ -1,8 +1,8 @@
 {
   "name": "MyLibrary",
   "version": "0.1.0",
-  "summary": "A short description of MyLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "My Demo library",
+  "description": "This is a demo pod library containing a simple custom widget that is ready to use",
   "homepage": "https://github.com/myan0020/MyLibrary",
   "license": {
     "type": "MIT",
